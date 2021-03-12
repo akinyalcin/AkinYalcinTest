@@ -11,6 +11,7 @@ class TestData():
     username = "Akın"
     userSurname = "Yalçın"
     email = "testuser2Softtech@gmail.com"
+    email2 = "testusersofttech@gmail.com"
     phone = "5421111111"
     password = "!Qaz2wsx"
     wrong_password = "!QAz2wsx"
