@@ -125,7 +125,7 @@ class WebDriverTestCase(unittest.TestCase):
         driver.find_element_by_xpath("/html/body/div[1]/div/div/div[2]/div/div/div/div[4]/div").click()
 
         self.driver.find_element_by_id("txtUserName").clear()
-        self.driver.find_element_by_id("txtUserName").send_keys(TestData.email)
+        self.driver.find_element_by_id("txtUserName").send_keys(TestData.email2)
         self.driver.find_element_by_id("txtPassword").clear()
         self.driver.find_element_by_id("txtPassword").send_keys(TestData.wrong_password)
         self.driver.find_element_by_id("btnLogin").click()
